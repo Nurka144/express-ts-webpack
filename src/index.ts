@@ -21,7 +21,6 @@ class App {
 
     runserver() {
         this.__routes()
-        // this.app.set('view engine', 'ejs')
         this.app.listen(this.port, function(){
             console.log('Server has been started');
             connectDB()
